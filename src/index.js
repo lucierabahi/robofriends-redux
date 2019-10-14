@@ -7,7 +7,6 @@ import App from './containers/App';
 import * as serviceWorker from './serviceWorker';
 import { searchRobots } from './reducers';
 import 'tachyons';
-import { create } from 'domain';
 
 const store = createStore(searchRobots);
 
